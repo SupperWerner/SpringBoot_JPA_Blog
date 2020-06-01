@@ -1,0 +1,385 @@
+2020-04-17 11:39:46.820  INFO 2446 --- [restartedMain] com.blog.blog.BlogApplication            : Starting BlogApplication on mybook-pc with PID 2446 (/home/mybook/IdeaProjects/blog/target/classes started by mybook in /home/mybook/IdeaProjects/blog)
+2020-04-17 11:39:47.008  INFO 2446 --- [restartedMain] com.blog.blog.BlogApplication            : The following profiles are active: dev
+2020-04-17 11:39:47.295  INFO 2446 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/mybook/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-17 11:39:47.297  INFO 2446 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-17 11:39:47.298  INFO 2446 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-17 11:39:49.350  INFO 2446 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-17 11:39:49.546  INFO 2446 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174ms. Found 5 JPA repository interfaces.
+2020-04-17 11:39:50.292  INFO 2446 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-17 11:39:51.440  INFO 2446 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-17 11:39:51.460  INFO 2446 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-17 11:39:51.461  INFO 2446 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-17 11:39:51.606  INFO 2446 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-17 11:39:51.607  INFO 2446 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4308 ms
+2020-04-17 11:39:52.221  INFO 2446 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-17 11:39:52.408  INFO 2446 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-04-17 11:39:52.704  INFO 2446 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-17 11:39:52.951  INFO 2446 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-17 11:39:53.723  INFO 2446 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-17 11:39:53.762  INFO 2446 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-04-17 11:39:55.827  INFO 2446 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-17 11:39:55.841  INFO 2446 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 11:39:55.912  INFO 2446 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-17 11:39:58.514  INFO 2446 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-17 11:39:59.096  INFO 2446 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-17 11:39:59.746  INFO 2446 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-17 11:39:59.752  INFO 2446 --- [restartedMain] com.blog.blog.BlogApplication            : Started BlogApplication in 16.403 seconds (JVM running for 19.898)
+2020-04-17 11:40:06.069  INFO 2446 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-17 11:40:06.071  INFO 2446 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-17 11:40:06.103  INFO 2446 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-04-17 11:40:06.179  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:40:06.424  WARN 2446 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-17 11:40:06.460  WARN 2446 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-17 11:40:06.475  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:40:06.476  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:40:09.738  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:40:09.750  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:40:09.751  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:40:56.324  WARN 2446 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2020-04-17 11:40:56.325 ERROR 2446 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+2020-04-17 11:40:56.328  INFO 2446 --- [http-nio-8080-exec-7] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-04-17 11:40:56.351 ERROR 2446 --- [http-nio-8080-exec-7] c.b.b.e.ControllerExceptionHandler       : Request URL : http://www.elon.cn:8080/admin/types/2/delete , Exception : {}
+
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:298)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:538)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:744)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:712)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.blog.blog.service.admin.impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$9aa4eb13.deleteType(<generated>)
+	at com.blog.blog.web.admin.TypeController.delete(TypeController.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3513)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3772)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:100)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:108)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1344)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:435)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3221)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2389)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534)
+	... 60 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 81 common frames omitted
+
+2020-04-17 11:40:56.355  WARN 2446 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-04-17 11:40:58.938  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:40:58.983  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:40:58.983  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:40:59.213  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:40:59.235  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:40:59.236  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:00.626  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:00.660  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:00.660  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:00.892  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:00.906  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:00.906  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:03.078  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/blog/17', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.blog', args=[17, {}]}
+2020-04-17 11:41:03.242  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:03.243  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:blog
+2020-04-17 11:41:04.372  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:04.373  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments/17', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.comments', args=[17, {}]}
+2020-04-17 11:41:04.382  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:04.383  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:04.450  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:04.451  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:blog :: commentList
+2020-04-17 11:41:36.605  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/4', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2020-04-17 11:41:36.628  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:36.629  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:36.834  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:36.846  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:36.846  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:37.407  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/3', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-04-17 11:41:37.425  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:37.425  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:37.598  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:37.613  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:37.613  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:38.186  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/4', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2020-04-17 11:41:38.198  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:38.199  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:38.396  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:38.410  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:38.410  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:38.933  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/3', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-04-17 11:41:38.947  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:38.948  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:39.122  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:39.131  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:39.132  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:40.527  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/2', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-04-17 11:41:40.549  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:40.550  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:40.747  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:40.767  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:40.768  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:41.263  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:41.306  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:41.306  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:41:41.493  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:41.504  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:41.505  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:43.288  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:43.312  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:43.313  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:43.532  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:43.543  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:43.544  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:44.442  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:44.467  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:44.467  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:41:44.671  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:44.688  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:44.689  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:45.202  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:45.220  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:45.221  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:45.411  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:45.420  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:45.421  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:46.461  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:41:46.488  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:46.488  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:41:46.669  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:46.679  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:46.680  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:47.320  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:47.336  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:47.337  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:41:47.530  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:47.540  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:47.540  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:48.823  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:41:48.843  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:48.843  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:41:49.097  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:49.115  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:49.115  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:50.015  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/archives', ip='192.168.43.251', classMethod='com.blog.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-04-17 11:41:50.052  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:50.053  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:archives
+2020-04-17 11:41:50.201  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:50.213  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:50.213  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:53.224  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:41:53.251  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:53.251  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:41:53.456  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:53.468  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:53.469  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:55.087  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:41:55.118  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:55.118  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:41:55.317  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:55.330  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:55.331  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:56.607  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:41:56.634  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:56.635  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:41:56.821  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:56.830  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:56.830  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:57.649  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:41:57.682  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:57.683  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:41:57.875  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:41:57.889  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:41:57.889  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:41:59.994  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:42:00.015  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:00.015  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:42:00.201  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:00.214  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:00.215  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:00.748  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:42:00.764  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:00.764  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:42:00.965  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:00.973  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:00.973  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:01.886  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:42:01.908  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:01.908  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:42:02.105  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:02.118  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:02.118  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:02.369  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/archives', ip='192.168.43.251', classMethod='com.blog.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-04-17 11:42:02.386  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:02.386  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:archives
+2020-04-17 11:42:02.528  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:02.536  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:02.536  INFO 2446 --- [http-nio-8080-exec-8] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:03.735  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/tags/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TagShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:42:03.749  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:03.749  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:labelPage
+2020-04-17 11:42:03.933  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:03.943  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:03.944  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:04.065  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/types/-1', ip='192.168.43.251', classMethod='com.blog.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-04-17 11:42:04.079  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:04.079  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:classPage
+2020-04-17 11:42:04.243  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:04.251  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:04.251  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:42:05.331  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:42:05.352  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:05.353  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:42:05.647  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:42:05.662  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:42:05.662  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:43:56.752  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:43:56.780  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:43:56.781  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:43:56.988  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:43:56.999  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:43:57.000  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:43:59.120  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/blog/17/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.blog', args=[17, {}]}
+2020-04-17 11:43:59.176  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:43:59.176  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:blog
+2020-04-17 11:44:00.264  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments/17', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.comments', args=[17, {}]}
+2020-04-17 11:44:00.272  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:44:00.284  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:00.285  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:44:00.306  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:00.306  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:blog :: commentList
+2020-04-17 11:44:47.850  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.post', args=[Comment{id=null, nickname='werner', email='4594143@qq.com', content='大家好', avatar='null', createTime=null, blog=Blog{id=17, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@4674f550]}
+2020-04-17 11:44:47.878  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:47.878  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:redirect:/comments/17
+2020-04-17 11:44:47.894  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments/17', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.comments', args=[17, {}]}
+2020-04-17 11:44:47.925  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:47.925  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : Result:blog :: commentList
+2020-04-17 11:44:56.785  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.post', args=[Comment{id=null, nickname='werner', email='4594143@qq.com', content='你好
+', avatar='null', createTime=null, blog=Blog{id=17, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=26, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@4674f550]}
+2020-04-17 11:44:56.815  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:56.815  INFO 2446 --- [http-nio-8080-exec-2] com.blog.blog.aspect.LogAspect           : Result:redirect:/comments/17
+2020-04-17 11:44:56.825  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments/17', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.comments', args=[17, {}]}
+2020-04-17 11:44:56.859  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:44:56.859  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:blog :: commentList
+2020-04-17 11:45:43.653  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 11:45:43.679  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:45:43.680  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:index
+2020-04-17 11:45:43.929  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:45:43.940  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:45:43.940  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:45:53.400  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/about', ip='192.168.43.251', classMethod='com.blog.blog.web.AboutShowController.about', args=[]}
+2020-04-17 11:45:53.408  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:45:53.408  INFO 2446 --- [http-nio-8080-exec-5] com.blog.blog.aspect.LogAspect           : Result:about_me
+2020-04-17 11:45:53.575  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:45:53.586  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:45:53.587  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:46:08.553  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/archives', ip='192.168.43.251', classMethod='com.blog.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-04-17 11:46:08.574  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:08.574  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:archives
+2020-04-17 11:46:08.732  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:46:08.742  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:08.742  INFO 2446 --- [http-nio-8080-exec-4] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:46:10.395  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/about', ip='192.168.43.251', classMethod='com.blog.blog.web.AboutShowController.about', args=[]}
+2020-04-17 11:46:10.395  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:10.395  INFO 2446 --- [http-nio-8080-exec-10] com.blog.blog.aspect.LogAspect           : Result:about_me
+2020-04-17 11:46:10.532  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:46:10.543  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:10.543  INFO 2446 --- [http-nio-8080-exec-9] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:46:33.005  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/search', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], JAP, {}]}
+2020-04-17 11:46:33.023  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:33.023  INFO 2446 --- [http-nio-8080-exec-1] com.blog.blog.aspect.LogAspect           : Result:search
+2020-04-17 11:46:33.247  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:46:33.257  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:33.257  INFO 2446 --- [http-nio-8080-exec-6] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:46:43.867  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/blog/17', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.blog', args=[17, {}]}
+2020-04-17 11:46:43.909  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:43.909  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:blog
+2020-04-17 11:46:44.950  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/comments/17', ip='192.168.43.251', classMethod='com.blog.blog.web.CommentController.comments', args=[17, {}]}
+2020-04-17 11:46:44.959  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : request：RequestLog{url='http://www.elon.cn:8080/footer/newblog', ip='192.168.43.251', classMethod='com.blog.blog.web.IndexController.newBlogs', args=[{}]}
+2020-04-17 11:46:44.968  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:44.968  INFO 2446 --- [http-nio-8080-exec-3] com.blog.blog.aspect.LogAspect           : Result:_fragments :: newBlogList
+2020-04-17 11:46:44.992  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : ============doAfter=============
+2020-04-17 11:46:44.993  INFO 2446 --- [http-nio-8080-exec-7] com.blog.blog.aspect.LogAspect           : Result:blog :: commentList
+2020-04-17 23:43:44.280  INFO 2446 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-17 23:43:44.283  INFO 2446 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-17 23:43:44.293  INFO 2446 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-17 23:43:44.304  INFO 2446 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

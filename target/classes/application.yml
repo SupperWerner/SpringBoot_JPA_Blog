@@ -1,0 +1,7 @@
+spring:
+  methyleaf:
+    mode: HTML
+  profiles:
+    active: dev
+
+comment.avatar: https://picsum.photos/id/447/100/100

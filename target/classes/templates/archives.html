@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>label</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/my.css">
+</head>
+<body>
+<!--导航-->
+    <nav class="ui inverted segment attached" th:replace="_fragments :: menu(4)">
+        <div class="ui ">
+            <div class="ui stackable inverted secondary menu m-padded-tb-mini">
+                <h2 class="ui teal header" style="margin-top: 0.3em;">Werner</h2>
+                <a href="#" class="item m-mobile-hide m-item"><i class=" home icon"></i>home</a>
+                <a href="#" class="item m-mobile-hide m-item"><i class=" idea icon"></i>class</a>
+                <a href="#" class="item m-mobile-hide m-item"><i class=" tags icon"></i>label</a>
+                <a href="#" class="active item m-mobile-hide m-item"><i class=" clone icon"></i>file</a>
+                <a href="#" class="item m-mobile-hide m-item"><i class=" info icon"></i>about me...</a>
+                <div class="right item m-mobile-hide m-item">
+                    <div class="ui icon inverted input transparent ">
+                        <input type="text" placeholder="Search...">
+                        <i class="search icon link"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui icon black button m-right-top m-mobile-show menu toggle"><i class="sidebar icon"></i> </a>
+    </nav>
+
+<!--content-->
+    <div class="m-padded-tb-big">
+        <div class="ui container">
+            <div class="ui top attached attached segment">
+                <div class="ui middle aligned two column grid">
+                    <div class="column">
+                        <h3 class="ui teal header">
+                            archives
+                        </h3>
+                    </div>
+                    <div class="right aligned column">
+                        共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${total}"> 114 </h2> 篇博客
+                    </div>
+                </div>
+            </div>
+            <th:block th:each="item : ${archiveMap}">
+            <h2 class="ui header center aligned" th:text="${item.key}">2019</h2>
+            <div class="ui fluid vertical menu">
+                <a href="#" target="_blank" class="item" th:each="blog:${item.value}" th:href="@{/blog/{id}(id=${blog.id})}">
+                <span>
+                <i class="teal circle icon"></i><span th:text="${blog.title}">关于刻意练习的清单</span>
+                <div class="ui teal basic left pointing label m-padded-tb-mini m-text-thin" th:text="${#dates.format(blog.updateTime,'MMMdd')}">9月30日</div>
+                </span>
+                    <div class="ui orange basic left pointing label m-padded-tb-mini m-text-thin" th:text="${blog.flag}">原创</div>
+                </a>
+            </div>
+            </th:block>
+        </div>
+    </div>
+
+
+<!--footer-->
+    <footer class="ui inverted vertical segment m-padded-tb-massive" th:replace="_fragments :: footer">
+        <div class="ui container center aligned">
+            <!--<div class="ui inverted divided grid">
+                <div class="three wide column">
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578598389430&di=da6ec70ed88b49083a493eeeff806174&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F4b898f4d1ee6b71b8856774dcd80d47c99b21815b899-SlCN00_fw658" alt="" class="ui rounded image" style="height: 100px">
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced m-opacity-min">Latest blog</h4>
+                    <div class="ui inverted link list">
+                        <a href="" class="item">content—one</a>
+                        <a href="" class="item">content—tow</a>
+                        <a href="" class="item">content—three</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced m-opacity-min">
+                        Contact me
+                    </h4>
+                    <div class="ui inverted link list">
+                        <a href="" class="item">Email：4594143@qq.com</a>
+                        <a href="" class="item">QQ：4594143</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced m-opacity-min" >
+                        brief introduction
+                    </h4>
+                    <p>This is my personal blog. I will share what I see, what I hear, what I see, what I think, what I think!</p>
+                </div>
+            </div>-->
+            <div class="ui stackable inverted divided grid">
+                <div class="three wide aligned column">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578598389430&di=da6ec70ed88b49083a493eeeff806174&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F4b898f4d1ee6b71b8856774dcd80d47c99b21815b899-SlCN00_fw658" alt="" class="ui rounded image" style="width: 100px;margin: auto;">
+                </div>
+                <div class="three wide column" >
+                    <h4 class="ui inverted header">Latest blog</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Link One</a>
+                        <a href="#" class="item">Link Two</a>
+                        <a href="#" class="item">Link Three</a>
+                        <a href="#" class="item">Link Four</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header"> Contact me</h4>
+                    <div class="ui inverted link list">
+                        <a href="" class="item">Email：4594143@qq.com</a>
+                        <a href="" class="item">QQ：4594143</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced m-opacity-mini" >
+                        brief introduction
+                    </h4>
+                    <p>This is my personal blog. I will share what I see, what I hear, what I see, what I think, what I think!</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider">
+                <p class="m-text-thin m-text-spaced m-opacity-tin">Copyright © 2020-2022 Werner</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="../static/js/blog.js" th:src="@{/js/blog.js}" type="text/javascript"></script>
+<script src="../../static/js/index.js" th:src="@{/js/index.js}" type="text/javascript"></script>
+</body>
+</html>
